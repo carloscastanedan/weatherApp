@@ -1,0 +1,102 @@
+@import colors
+@import responsive
+
+html, body, ul, ol
+    margin: 0
+    padding: 0
+html,
+body
+    width: 100%
+    height: 100%
+
+body
+    background-color: $midnightblue
+.section-tempetature
+    width: 80%
+    margin: auto
+    text-align: center
+    margin-bottom: 50px
+    margin-top: 80px
+    header
+        margin-bottom: 40px
+        p
+            color: $white
+            font-family: $font
+            margin: 5px
+            height: auto
+            .wi
+                font-size: 5.5em
+                margin-right: 15px
+            .temperature
+                font-size: 3.5em
+                font-weight: lighter
+    .location
+        color: $silver
+        font-family: $font
+        font-size: 1.5em
+        letter-spacing: 0.2em
+        font-weight: lighter
+
+.record-temperature
+    display: flex
+    align-items: center
+    justify-content: space-around
+    width: 90%
+    margin: 15% auto
+    div
+        color: $silver
+        font-family: $font
+        text-align: center
+        i
+            font-size: 1.6em
+        p
+            font-size: 1em
+            font-weight: 100
+            margin: 50% 0
+
+.container
+    width: 90%
+    margin: auto;
+    height: 230px
+    #graph
+        position: absolute
+        bottom: 60px
+
+.days
+    width: 90%
+    margin: auto
+    display: flex
+    align-items: center
+    justify-content: space-around
+    position: absolute
+    bottom: 10px
+
+    span
+        color: $silver
+        font-family: $font
+        text-align: center
+        font-size: 1em
+        font-weight: 300
+        margin: 5px auto
+
+.axes
+    display: none
+    p
+        color: $silver
+        font-family: $font
+        font-size: 1em
+        font-weight: 300
+        position: absolute
+        right: 20px
+        bottom: -20px
+
+    span
+        width: 15px
+        height: 15px
+        display: inline-block
+        margin: 0 10px 0 10px
+    #temperature
+        background: $mediumturquouise
+    #humity
+        background: $knaki
+

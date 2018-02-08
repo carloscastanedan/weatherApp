@@ -5,6 +5,8 @@ al instante sino tener un pronóstico de los siguientes días así como conocer 
 
 En las siguientes imágenes se observa el funcionamiento de esta.
 
+*Importante: Para poder usar la aplicación en dispositivos móviles es necesario activar la ubicación, en 
+dispositivos de escritorio basta con permiter acceder a la ubicaión desde el navegador*
 ### Funcionamiento en Dispositivos móviles
 
 ![weather app mobile 1](images/weatherApp1.JPG)

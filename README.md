@@ -33,3 +33,7 @@ Puedes descargar la aplicación clonando el repositorio
 Además necesitas instalar las librerías con el comando
 
 ``` npm install ```
+
+## Licencia
+
+Copyright (c) 2018, Carlos Castañeda. (MIT License)
